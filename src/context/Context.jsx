@@ -1,23 +1,26 @@
-import {createContext} from 'react'
-import run from '../config/API-key';
+import { createContext, useState } from "react";
+import run from "../config/API-key";
 
 export const Context = createContext();
 
 const ContextProvider = (props) => {
-    const onSent = async(prompt) => {
-        await run(prompt);
-    }
-    
-    onSent("who is Thenaish");
+  const [input, setInput] = useState("");
 
-    const contextValue = {
-    }
+  const onSent = async () => {
+    await run(input);
+  };
 
-    return (
-        <Context.Provider value = {contextValue}>
-            {props.children}
-        </Context.Provider>
-    )
-}
+  const contextValue = {
+    onSent,
+    input,
+    setInput
+  };
 
-export default ContextProvider
+  return (
+    <Context.Provider value={contextValue}>
+      {props.children}
+      </Context.Provider>
+  );
+};
+
+export default ContextProvider;
