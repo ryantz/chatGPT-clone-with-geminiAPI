@@ -1,0 +1,13 @@
+.textInput {
+  margin-top: 55px;
+}
+
+.btm-four-container {
+  margin-top: 650px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  justify-items: center;
+}
+
+

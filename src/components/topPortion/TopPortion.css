@@ -1,0 +1,5 @@
+.top-portion-container  {
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+}

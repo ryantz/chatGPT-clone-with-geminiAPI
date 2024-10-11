@@ -1,0 +1,46 @@
+::placeholder{
+    color: #AAAAAA;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.user-input {
+    border: 0;
+    width: 100%;
+    background-color: #404040;
+    color: white;
+    font-size: 18px;
+    border-radius: 30px;
+    height: 100%;
+    padding-left: 30px;
+}
+
+.user-input:focus {
+    outline: 0;
+}
+
+.textSubmit {
+    border: 0;
+}
+
+.userInput-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 60px;
+}
+
+.userInput-wrapper button {
+    aspect-ratio: 1;
+    position: absolute;
+    right: 0;
+    height: 80%;
+    background-color: transparent;
+}
+
+.userInput-wrapper img {
+    border: 0;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+}

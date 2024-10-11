@@ -1,0 +1,21 @@
+.lbtn {
+    height: 33px;
+    width: 80px;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+#loginL {
+    background-color: white;
+    color: black;
+    margin-right: 10px;
+}
+
+#signupL {
+    background-color: #272727;
+    color: white;
+}
+
+#signupL:hover {
+    background-color: #2c2c2c;
+}
