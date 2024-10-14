@@ -1,0 +1,23 @@
+.textInput {
+  margin-top: 30px;
+}
+
+.btm-four-container {
+  margin-top: 650px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+.btm-wrapper-main {
+  width: 80%;
+  padding-left: 10%;
+}
+
+.textInput p {
+  text-align: center;
+  color: #AAAAAA;
+}
+
+

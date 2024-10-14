@@ -1,0 +1,10 @@
+.bubble-wrap {
+    margin-left:160px;
+    border: white 20px solid;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    width: 35%;
+    padding-left: 30px;
+    font-size: 20px;
+}

@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
-import './topLeft.css'
-import LoginPrompt from '../loginPrompt/LoginPrompt'
-import {assets} from "../../assets/assets"
+import './styling/topLeft.css'
+import LoginPrompt from './LoginPrompt'
+import {assets} from "../assets/assets"
 
 export default function TopLeft(){
     const [reveal, setReveal] = useState(false);

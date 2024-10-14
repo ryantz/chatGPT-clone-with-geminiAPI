@@ -1,0 +1,10 @@
+.ai-bubble-wrap {
+    border: 20px grey solid;
+    border-radius: 25px;
+    background-color: grey;
+    color: black;
+    width: 40%;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 800px;
+}

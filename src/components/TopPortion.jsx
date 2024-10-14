@@ -1,6 +1,6 @@
-import Loginbutton from "../loginBtns/LoginBtn"
-import TopLeft from "../topLeft/TopLeft"
-import './TopPortion.css'
+import Loginbutton from "./LoginBtn"
+import TopLeft from "./TopLeft"
+import './styling/TopPortion.css'
 
 export default function TopPortion(){
     return(

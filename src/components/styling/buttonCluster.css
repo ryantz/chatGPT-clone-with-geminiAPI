@@ -1,0 +1,25 @@
+.btn-cluster {
+    border-radius: 25px;
+    width: 400px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #AAAAAA;
+    font-size: 14px;
+}
+
+button {
+    border: rgb(104, 103, 103) 1px solid;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+.btn-cluster strong {
+    background-color: inherit;
+    font-size: 15px;
+    color: rgb(197, 196, 196);
+}
+
+

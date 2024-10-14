@@ -1,6 +1,6 @@
 import React from "react";
-import "./loginPrompt.css";
-import Loginbutton from "../loginBtns/LoginBtn"
+import "./styling/loginPrompt.css";
+import Loginbutton from "./LoginBtn"
 
 //import { assets } from "../assets/assets";
 

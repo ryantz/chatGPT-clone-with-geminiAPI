@@ -1,3 +1,4 @@
+
 const {
   GoogleGenerativeAI,
   HarmCategory,
@@ -20,6 +21,7 @@ const generationConfig = {
 };
 
 export default async function run(prompt) {
+
   const chatSession = model.startChat({
     generationConfig,
     // safetySettings: Adjust safety settings
@@ -29,6 +31,7 @@ export default async function run(prompt) {
 
   const result = await chatSession.sendMessage(prompt);
   const response = result.response;
-  console.log(response.text());
+  const resText = response.text();
+  return resText;
 }
 

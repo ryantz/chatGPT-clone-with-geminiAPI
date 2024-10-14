@@ -5,15 +5,29 @@ export const Context = createContext();
 
 const ContextProvider = (props) => {
   const [input, setInput] = useState("");
+  const [clickedPrompt, setClickedPrompt] = useState("");
+  const [submitted, setSubmitted] = useState("");
+  const [showButtons, setShowButtons] = useState(true);
+  const [confirmed, setConfirmed] = useState(false);
+  const [aiOutput, setAiOutput] = useState("");
 
   const onSent = async () => {
-    await run(input);
+    const out = await run(input);
+    setAiOutput(out);
   };
 
   const contextValue = {
     onSent,
     input,
-    setInput
+    setInput,
+    clickedPrompt,
+    setClickedPrompt,
+    setSubmitted,
+    showButtons,
+    setShowButtons,
+    confirmed,
+    setConfirmed,
+    aiOutput,
   };
 
   return (

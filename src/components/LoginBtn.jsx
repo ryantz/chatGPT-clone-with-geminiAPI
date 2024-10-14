@@ -1,5 +1,5 @@
 import React from "react"
-import "./loginBtn.css"
+import "./styling/loginBtn.css"
 
 export default function Loginbutton(){
     return (
